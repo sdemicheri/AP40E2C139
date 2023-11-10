@@ -5,15 +5,12 @@
  */
 package com.argentinaprograma.Modelo;
 
-import lombok.Data;
-
 /**
  *
  * @author Usuario
  */
-@Data
-public class Alumno {
-    private String nombre;
-    private String apellido;
-    
+public interface Popularidad {
+    public abstract String getIcono();
+    public abstract String getLeyenda(Cancion cancion);
+    public abstract void cambiarEstado(Cancion cancion);
 }

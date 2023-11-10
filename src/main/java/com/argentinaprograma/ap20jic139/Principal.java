@@ -5,6 +5,10 @@
  */
 package com.argentinaprograma.ap20jic139;
 
+import com.argentinaprograma.Modelo.Cancion;
+import com.argentinaprograma.Modelo.Normal;
+
+
 /**
  *
  * @author Usuario
@@ -12,8 +16,9 @@ package com.argentinaprograma.ap20jic139;
 public class Principal {
     
     public static void main(String[] args) {
-        Alumno alumno = new Alumno();
-        alumno.
+        Cancion cancion = new Cancion();
+        cancion.setPopularidad(new Normal());
+        cancion.cambiarPopularidad();
     }
     
 }
